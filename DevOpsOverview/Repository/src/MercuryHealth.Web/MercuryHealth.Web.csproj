@@ -307,15 +307,6 @@
     <Content Include="Views\MemberProfile\Edit.cshtml" />
     <Content Include="Views\MyMetrics\Calculate.cshtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
-    <Content Include="mh.qa.config">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="mh.qa.Debug.config">
-      <DependentUpon>mh.qa.config</DependentUpon>
-    </Content>
-    <Content Include="mh.qa.Release.config">
-      <DependentUpon>mh.qa.config</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
