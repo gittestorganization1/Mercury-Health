@@ -5,7 +5,6 @@
     [Bio]                 NVARCHAR (MAX) NULL,
     [WeightInKilograms]   INT            NOT NULL,
     [HeightInCentimeters] INT            NOT NULL,
-    [MobileNumber]        NCHAR (12)     NOT NULL,
     CONSTRAINT [PK_dbo.MemberProfiles] PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
