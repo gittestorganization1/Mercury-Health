@@ -78,7 +78,6 @@
     <Build Include="dbo\Tables\AspNetRoles.sql" />
     <Build Include="dbo\Tables\MemberProfiles.sql" />
     <Build Include="dbo\Tables\FoodLogEntries.sql" />
-    <Build Include="dbo\Tables\mhqadb_Update3.publish.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MercuryHealth.Sql.Dev.publish.xml" />
