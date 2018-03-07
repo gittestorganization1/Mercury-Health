@@ -6,6 +6,7 @@
     [MusclesInvolved] NVARCHAR (MAX)   NULL,
     [Equipment]       NVARCHAR (MAX)   NULL,
     [Exercise_Id]     UNIQUEIDENTIFIER NULL,
+    [Sample] NCHAR(10) NULL, 
     CONSTRAINT [PK_dbo.Exercises] PRIMARY KEY CLUSTERED ([Id] ASC),
     CONSTRAINT [FK_dbo.Exercises_dbo.Exercises_Exercise_Id] FOREIGN KEY ([Exercise_Id]) REFERENCES [dbo].[Exercises] ([Id])
 );
