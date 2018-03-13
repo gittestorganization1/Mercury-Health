@@ -8,7 +8,7 @@
     [ProteinInGrams]       DECIMAL(18, 2)            NOT NULL,
     [FatInGrams]           DECIMAL(18, 2)            NOT NULL,
     [CarbohydratesInGrams] DECIMAL(18, 2)            NOT NULL,
-    [SodiumInGrams]        DECIMAL(18, 2)            NOT NULL,
+    [SodiumInGram]        DECIMAL(18, 2)            NOT NULL,
 	[Color]				   NVARCHAR (MAX) NULL,
     [MemberProfile_Id]     INT            NULL
 

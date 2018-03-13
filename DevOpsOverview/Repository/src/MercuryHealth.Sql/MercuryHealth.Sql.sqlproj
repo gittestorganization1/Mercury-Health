@@ -84,4 +84,7 @@
     <None Include="MercuryHealth.Sql.Prod.publish.xml" />
     <None Include="MercuryHealthGrp.Sql..Prod.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="MercuryHealth.Sql.refactorlog" />
+  </ItemGroup>
 </Project>
