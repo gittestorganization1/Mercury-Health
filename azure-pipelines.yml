@@ -17,12 +17,11 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: DownloadPipelineArtifact@1
+- task: DownloadBuildArtifacts@0
   inputs:
     buildType: 'specific'
     project: 'a8c805e3-0475-4606-8113-ad70ea188e2e'
     pipeline: '3'
-    buildVersionToDownload: 'specific'
-    pipelineId: '6'
-    artifactName: 'drop'
-    targetPath: '$(System.ArtifactsDirectory)'
+    buildVersionToDownload: 'latest'
+    downloadType: 'single'
+    downloadPath: '$(System.ArtifactsDirectory)'
