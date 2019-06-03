@@ -1,4 +1,11 @@
 # Starter pipeline
+- task: DownloadPipelineArtifact@1
+  inputs:
+    buildType: 'specific'
+    project: 'a8c805e3-0475-4606-8113-ad70ea188e2e'
+    pipeline: '3'
+    buildVersionToDownload: 'latest'
+    targetPath: '$(System.ArtifactsDirectory)'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
