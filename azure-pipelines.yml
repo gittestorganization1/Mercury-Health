@@ -12,12 +12,9 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-
 - task: DownloadPipelineArtifact@1
   inputs:
     buildType: 'specific'
-    project: 'a8c805e3-0475-4606-8113-ad70ea188e2e'
-    pipeline: '3'
+    project: 'WebApplication2'
     buildVersionToDownload: 'latest'
-    artifactName: 'drop'
-    targetPath: '$(System.ArtifactsDirectory)'
+    targetPath: '$(build.artifactstagingdirectory)'
