@@ -19,4 +19,5 @@ steps:
     project: 'a8c805e3-0475-4606-8113-ad70ea188e2e'
     pipeline: '3'
     buildVersionToDownload: 'latest'
+    artifactName: 'drop'
     targetPath: '$(System.ArtifactsDirectory)'
