@@ -12,9 +12,3 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- task: DownloadPipelineArtifact@1
-  inputs:
-    buildType: 'specific'
-    project: 'WebApplication2'
-    buildVersionToDownload: 'latest'
-    targetPath: '$(build.artifactstagingdirectory)'
